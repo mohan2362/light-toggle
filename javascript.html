@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>JS Script</title>
+<link rel="stylesheet" href="style8.css">
+</html>
+<body>
+
+<h2>Bulb Testing</h2>
+<p id="status">Bulb is OFF</p>
+
+<img id="bulb" src="bulb-off.png" width="200">
+<button onclick="toggleBulb()" id="btn">Turn ON</button> 
+
+<script>
+function toggleBulb() {
+    let bulb=
+    document.getElementById("bulb");
+let status=
+     document.getElementById("status");
+
+if(bulb.src.includes("off")) {
+bulb.src="bulb-on.png";
+btn.innerText="Turn Off";
+} else {
+    bulb.src="bulb-off.png";
+    btn.innerText="Turn On"
+}
+} 
+</script>
+
+</body>
+</html>
+ 
