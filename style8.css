@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: black;
+    transition: 0.5s;
+}
+.button{
+    color:white;
+    cursor: pointer;
+    padding:10px 20px;
+    border: none;
+    background: #00c6ff;
+    border-radius: 14px;
+}
+img {
+    transition:all 0.4s ease;
+}
+.on {
+    filter: drop-shadow(0 0 20px yellow);
+}
